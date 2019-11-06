@@ -1,3 +1,5 @@
+# CREATE TABLE log (id INT AUTO_INCREMENT PRIMARY KEY,ts DATETIME,op VARCHAR(2),data varchar(255));
+
 import time, sys, serial
 import collections
 import re
